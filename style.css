@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Inter:wght@100&family=Maven+Pro&family=Pixelify+Sans&display=swap');
+
+@font-face {
+    font-family: 'Bagel';
+    src: url('font.ttf') format('truetype');
+}
+
+#title {
+    font-family: 'Bagel', sans-serif;
+    background: linear-gradient(0deg, #0075FF, #FA00FF);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-size: 60px;
+}
+
+#sub
+{
+    color: white;
+    text-align: center;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+p
+{
+    font-family: 'Comfortaa', sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 0;
+}
+
+#logo {
+    width: 256px;
+    border-radius: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    /* Adjust this to your preference */
+}
